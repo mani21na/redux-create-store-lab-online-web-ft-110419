@@ -1,5 +1,10 @@
 function createStore(reducer) {
   let state;
+
+  fuction dispatch(action) {
+    state = reducer(state, action);
+    render();
+  }
 }
 
 function candyReducer(state = [], action) {
