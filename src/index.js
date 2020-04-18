@@ -5,6 +5,10 @@ function createStore(reducer) {
     state = reducer(state, action);
     render();
   }
+
+  function getState() {
+    return state;
+  }
 }
 
 function candyReducer(state = [], action) {
