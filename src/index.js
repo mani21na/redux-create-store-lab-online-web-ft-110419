@@ -1,7 +1,7 @@
 function createStore(reducer) {
   let state;
 
-  fuction dispatch(action) {
+  function dispatch(action) {
     state = reducer(state, action);
     render();
   }
