@@ -35,3 +35,4 @@ function render() {
 };
 
 let store = createStore(candyReducer)
+store.dispatch({type: '@@INIT'})
