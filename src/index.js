@@ -34,4 +34,4 @@ function render() {
   }
 };
 
-let store = createStore()
+let store = createStore(candyReducer)
